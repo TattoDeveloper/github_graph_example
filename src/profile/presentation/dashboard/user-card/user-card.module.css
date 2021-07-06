@@ -1,0 +1,11 @@
+.userCard{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.userCard img{
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  border: 5px solid var(--text-color1);
+}

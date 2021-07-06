@@ -1,0 +1,15 @@
+.dashboard{
+  color: var(--text-color1);
+  display: flex;
+  padding-top: 2rem;
+}
+
+.dashboard span{
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .dashboard{
+    flex-direction: column;
+  }
+}

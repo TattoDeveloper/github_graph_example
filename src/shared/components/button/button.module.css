@@ -1,0 +1,23 @@
+.button{
+  border:none;
+  padding: 18px 45px;
+  border-radius: .3rem;
+  cursor: pointer;
+  color:white;
+}
+
+.primary{
+  background-color: var(--primary);
+}
+
+.violet{
+  background-color: var(--primary-violet);
+}
+
+
+@media (max-width: 480px){
+   .button{
+      padding: 18px 25px;
+      min-width: 140px;
+   }
+}

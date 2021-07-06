@@ -1,0 +1,66 @@
+:root{
+  --primary:#206EEB;
+  --secondary: #2DA042;
+  --background: #0E1218;
+  --text-color1: #C8D1D9;
+  --text-color2: #282323;
+  --input-background: #f2f5f7;
+  --input-border-color: #d3dee5;
+  --text-alert: #f24343;
+
+  --heading1: 4.5rem;
+  --heading2: 3rem;
+  --heading3: 2.25rem;
+  --heading4: 1.5rem;
+
+}
+
+.errorMessages{
+   color: var(--text-alert);
+   font-size: .8rem;
+}
+
+.guide{
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homeContainer{
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  :root{
+    --heading1: 4.1rem;
+    --heading2: 2.8rem;
+    --heading3: 1.8rem;
+    --heading4: 1.2rem;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  :root{
+    --heading1: 3.6rem;
+    --heading2: 2.5rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  :root{
+    --heading3: 1.8rem;
+    --heading4: 1.2rem;
+  }
+  
+}

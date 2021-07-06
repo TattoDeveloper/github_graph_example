@@ -1,0 +1,115 @@
+.tapContainer{
+    height: fit-content;
+    border-bottom: solid 1px var(--gray-color);
+    color: var(--black);
+    margin-right: 4%;
+}
+
+.tapContainer button{
+    margin:0 auto 2rem;
+    text-align: left;
+    font-family: 'Poppins';
+    padding-bottom: .5rem;
+    background-color: transparent;
+}
+
+.tap{
+    border:none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--darkGray-color);
+    outline:none;
+    cursor: pointer;
+}
+
+.active{
+    color: var(--primary-violet);
+    border-bottom: 2px solid;
+}
+
+.block{
+    width: 100%;
+    margin:0 1.3% 0 1.6%;
+}
+.view{
+    width: 100%;
+    flex:none;
+}
+
+
+.subBlock h4{
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.subBlock{
+    margin-bottom: 5rem;
+}
+
+.subBlockOne h4{
+    color: var(--darkGray-color);
+    margin-bottom: 1.3rem;
+}
+
+.subBlockTwo{
+    width: 216px;
+    margin: 1rem auto;
+}
+
+.subBlockTwo h4{
+  color: var(--blue-color);
+  text-align: center;
+}
+
+.subBlockTwo span{
+    font-size: .8rem;
+    text-align: center;
+    display: block;
+    color: var(--blue-color)
+}
+
+.scores{
+    padding: 0 .6rem;
+    border: 1px solid var(--gray-color);
+    border-radius: 4px;
+    margin: .8rem 0;
+}
+
+.scoreItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .8rem 0;
+}
+
+.scoreItem div{
+    display: flex;
+    align-items: center;
+}
+
+.scoreItem div div{
+    width: 17px;
+    margin-right: 5px;
+}
+
+.boldExp span{
+    font-weight: bold;
+    color: var(--purple-color);
+}
+
+@media (max-width:600px){
+    .block{
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    .tapContainer{
+      display: flex;
+    }
+
+    .blockSliderCont{
+        width: 96%;
+    }
+
+}

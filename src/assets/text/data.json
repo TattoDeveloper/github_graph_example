@@ -1,0 +1,49 @@
+{
+  "logo": {
+    "path" : "/images/octocat.png",
+    "alt": "Logo"
+  },
+  "singIn":{
+    "title": "Sign in to GitHub profile",
+    "fields": {
+      "email": {
+        "label": "Email address",
+        "placeholder": "Enter your email"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      }
+    },
+    "button": "Sing In"
+  },
+  "singUp":{
+    "title": "Sign Up to GitHub profile",
+    "fields": {
+      "username": {
+        "label": "GitHub username",
+        "placeholder": "Enter your GitHub userName"
+      },
+      "email": {
+        "label": "Email address",
+        "placeholder": "Enter your email"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "confirm-password": {
+        "label": "Confirm Password",
+        "placeholder": "Enter your password"
+      }
+    },
+    "button": "Sing Up"
+  },
+  "dashboard":{
+     "avatar": {
+       "path" : "/images/octocat.png",
+       "alt": "Image for"
+     }
+  },
+  "noFound":"Descripción no encontrada"
+}
